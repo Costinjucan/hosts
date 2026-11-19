@@ -35,4 +35,4 @@ while read -r ip name _; do
   fi
 
   verify-IP "$name"
-done < "$HOME/etc/hosts"
+done < "$FILE"
